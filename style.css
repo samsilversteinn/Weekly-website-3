@@ -1,0 +1,29 @@
+body {
+    background-color: darkgreen;
+}
+
+.view {
+    background: url("background.webp")no-repeat center center;
+    background-size: cover;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.formbox {
+    background-color: green;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.title{
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

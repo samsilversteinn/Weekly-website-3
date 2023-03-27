@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="p-3 text-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo p-3">
+        <a class="navbar-brand" href="#"><strong>Saint Patrick's Day Lottery</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#form">Entry Form</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!--Home Start-->
+        <div id="Home" class="pt-5">
+            <div class="view intro-2 py-5">
+                <div class="full-bg-img">
+                    <div class="mask rgba-black-light flex-center">
+                        <div class="container text-center white-text">
+                            <div class="white-text text-center wow fadeInUp">
+                                <h2 text-white>Saint Patrick's Day Lottery</h2>
+                                <h5 text-white>Follow the information given in this website to enter the lottery drawing.</h5>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Home End-->
+
+
+        <!--About Start-->
+        <div id="about py-5">
+            <div class="row text-white">
+                <div class="col-4 text-center text-white p-3"><img src="hat.jpg" height="250px" width="330px" class="pix"></div>
+                <div class="col-4 text-center">
+                    <h1>About the Drawing</h1>
+                    <p>Grand Prize: $2,000,000</p>
+                    <p>Prizes: $2000 $1000 $500</p>
+                    <p>Deadline: Saturday March 8, 2023</p>
+                    <p>Rules: Participants must be 18 years of age or older. </p>
+                </div>
+                <div class="col-4 text-center p-3"><img src="rainbow.webp" height="250px" width="330px" class="pix"></div>
+            </div>
+        </div>
+        
+        <!--About End-->
+        
+
+
+
+        <!--Entry Form Start-->
+        <div id="form">
+            <div class="formbox">
+                <div class="contentWrapper">
+                    <form action="" method="post" name="signUpForm" id="signUpForm" class="text-center">
+                        <fieldset id="signUp">
+                            <legend class="text-center">Fill Out the Form to Enter the Drawing</legend>
+
+                            <label for="nameField">Name:</label><br>
+                            <input id="nameField" name="nameField" type="text" class="textfield"
+                                value="First and Last Name" onfocus="clearName();" onblur="resetName();">
+                            <div class="p-3"></div>
+                            <label for="phoneField">Phone:</label><br>
+                            <input id="phoneField" name="phoneField" type="text" class="textfield"
+                                value="example: 212-123-1234" onfocus="clearPhone();" onblur="resetPhone();">
+                            <div class="p-3"></div>
+                            <label for="emailField">Email:</label><br>
+                            <input id="emailField" name="emailField" type="text" class="textfield"
+                                value="example123@example.com" onfocus="clearEmail();" onblur="resetEmail();">
+                            <div class="p-3"></div>
+                            <input id="submit" type="submit" name="submit" value="Sign Me Up!" onclick="submitPage();">
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Entry Form End-->
+
+    </div>
+    <!--Footer Start-->
+    <div id="Footer">
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+    
+        <!-- Footer -->
+        <footer class="text-center text-white" style="background-color: green">
+            <!-- Grid container -->
+            <div class="container">
+    
+                <hr class="my-5" />
+    
+                <!-- Section: Text -->
+                <section class="mb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <p>
+                                Our 50th annual lottery!<br>
+                                <u>
+                                    <p class="footerheader">Contact</p><br>
+                                </u>
+                                Phone Number: 609-547-2982<br>
+                                Email: getyourlottery@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Section: Text -->
+    
+                <!-- Section: Social -->
+                <section class="text-center mb-5">
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </section>
+                <!-- Section: Social -->
+            </div>
+            <!-- Grid container -->
+    
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2023 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">Samantha Silverstein</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    
+    <!--Footer End-->
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    </body>
+    
+    </html>
