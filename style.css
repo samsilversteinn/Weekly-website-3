@@ -21,9 +21,22 @@ header,
 }
 h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px green;
 }
-.title{
-    font-size: 35px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h5{
+    font-size: 25;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text_shadows{
+    text-shadow: 5px 5px 5px black;
+}
+.little{
+    font-size: 25px;
+    font-size: verdana;
+}
+.form{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 5px black;
 }
